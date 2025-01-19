@@ -1,0 +1,21 @@
+    1  terraform init
+    2  ls
+    3  cd Day-3
+    4  ls
+    5  terraform init
+    6  ls
+    7  cd Dummy
+    8  terraform init
+    9  terraform plan
+   10  ls -l ~/.ssh/id_rsa.pub
+   11  ssh-keygen -t rsa -b 2048
+   12  ls -l ~/.ssh/id_rsa.pub
+   13  terraform plan
+   14  az login
+   15  terraform plan
+   16  terraform apply
+   17  cd history
+   18  history
+   19  history | xclip -selection clipboard
+   20  history | xsel --clipboard
+   21  history > command_history.txt
